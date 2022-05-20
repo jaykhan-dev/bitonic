@@ -1,48 +1,7 @@
-# bitonic
+# Bitonic
 
-This template should help get you started developing with Vue 3 in Vite.
+Bitcoin is the tonic we need for the financial industry. For the crypto industry to succeed, Bitcoin must succeed.  This projects aims to provide alls kinds of information related to Bitcoin such as charts, social media, jobs, resources, news and more.  
 
-## Recommended IDE Setup
+It is an open source project that is open to anyone interested in participating.  The frontend is built with Vue JS and is consuming APIs from different sources to get the latest information.  Think of Bitonic as the local health store that is run by people.  
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run build
-npm run test:e2e # or `npm run test:e2e:ci` for headless testing
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+This is a critical time for regular people to think about how they store value and handle their financial assets.

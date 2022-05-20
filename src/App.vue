@@ -1,125 +1,78 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
-</script>
-
 <template>
-  <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
+  <div :class="isDark ? 'dark' : ''" class="">
+    <div
+      class="fixed top-0 w-full z-50 flex justify-between text-white bg-black border-b border-white border-opacity-10 p-2"
+    >
+      <router-link to="/">
+        <h1 id="logo" class="logo text-2xl font-bold text-green-600">
+          Bitonic
+        </h1>
+      </router-link>
+      <div class="space-x-4 text-xl">
+        <button type="button" @click="isDark = !isDark">
+          <i class="fa-solid fa-sun text-yellow-500 hidden dark:block"></i>
+          <i class="fa-solid fa-moon block dark:hidden"></i>
+        </button>
+        <router-link to="/search">
+          <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </router-link>
+        <router-link to="/wallet">
+          <button class="">
+            <i class="fa-solid fa-wallet"></i>
+          </button>
+        </router-link>
+      </div>
     </div>
-  </header>
-
-  <RouterView />
+    <NavSide />
+    <FooterComp />
+  </div>
 </template>
 
+<script>
+import FooterComp from "./components/FooterComp.vue";
+import NavSide from "./components/NavSide.vue";
+
+export default {
+  name: "app",
+  components: {
+    NavSide,
+    FooterComp,
+  },
+  data() {
+    return {
+      isDark: true,
+    };
+  },
+};
+</script>
+
 <style>
-@import "@/assets/base.css";
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-
-  font-weight: normal;
-}
-
-header {
-  line-height: 1.5;
-  max-height: 100vh;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Baumans&family=Odibee+Sans&family=Outfit&family=Secular+One&family=Share+Tech+Mono&display=swap");
+/*
+font-family: 'Alata', sans-serif;
+font-family: 'Baumans', cursive;
+font-family: 'Odibee Sans', cursive;
+font-family: 'Outfit', sans-serif;
+font-family: 'Secular One', sans-serif;
+font-family: 'Share Tech Mono', monospace;
+*/
 .logo {
+  font-family: "Baumans", cursive;
+}
+h1 {
+  font-family: "Odibee Sans", cursive;
+}
+p {
+  font-family: "Outfit", sans-serif;
+}
+body,
+html {
   display: block;
-  margin: 0 auto 2rem;
-}
-
-a,
-.green {
-  text-decoration: none;
-  color: hsla(160, 100%, 37%, 1);
-  transition: 0.4s;
-}
-
-@media (hover: hover) {
-  a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-nav {
   width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
-}
-
-nav a:first-of-type {
-  border: 0;
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
-
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
-
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
-
-    padding: 1rem 0;
-    margin-top: 1rem;
-  }
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 </style>
