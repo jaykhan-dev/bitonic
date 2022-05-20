@@ -8,7 +8,7 @@
           Bitonic
         </h1>
       </router-link>
-      <div class="space-x-4 text-xl">
+      <div class="space-x-4 text-xl mr-4">
         <button type="button" @click="isDark = !isDark">
           <i class="fa-solid fa-sun text-yellow-500 hidden dark:block"></i>
           <i class="fa-solid fa-moon block dark:hidden"></i>

@@ -4,12 +4,17 @@
       <div class="container mt-20">
         <div>
           <h1 class="lg:text-6xl text-4xl font-bold">Learn</h1>
-          <p>
-            The blockchain is a complex piece of technology. Read the articles
-            below to get a better understanding
-          </p>
+          <p>Learn how Bitcoin can bring you financial freedom</p>
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  mounted() {
+    window.scrollTo(0, 0);
+  },
+};
+</script>
