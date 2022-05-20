@@ -1,5 +1,5 @@
 <template>
-  <section class="dark:bg-gray-900 bg-gray-200 text-white">
+  <section class="dark:bg-black bg-gray-200 text-white">
     <div class="flex justify-evenly p-2">
       <div
         class="container grid lg:grid-cols-5 lg:w-3/4 dark:text-white text-black my-8"

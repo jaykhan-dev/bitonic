@@ -1,5 +1,5 @@
 <template>
-  <section class="dark:bg-black dark:text-white dark:duration-300">
+  <section class="dark:bg-gray-900 dark:text-white dark:duration-300">
     <div class="lg:h-screen flex justify-center">
       <div class="container mt-20">
         <input
@@ -7,7 +7,7 @@
           name=""
           id=""
           placeholder="search..."
-          class="border-b w-full p-2 lg:text-6xl font-bold dark:bg-black"
+          class="border rounded-2xl border-gray-500 border-opacity-20 w-full p-4 shadow-xl font-bold dark:bg-black"
         />
       </div>
     </div>

@@ -2,7 +2,9 @@
   <nav
     class="lg:fixed lg:left-0 text-white lg:h-screen border-r border-white border-opacity-10 p-2 bg-black"
   >
-    <div class="grid place-items-center text-white lg:h-full">
+    <div
+      class="grid lg:place-items-start place-items-center mt-12 text-white lg:h-full"
+    >
       <div class="grid lg:grid-cols-1 grid-cols-4 text-2xl gap-4">
         <router-link to="/news">
           <i class="fa-solid fa-newspaper hover:text-green-500"></i>

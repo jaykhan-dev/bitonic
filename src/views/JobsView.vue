@@ -1,5 +1,5 @@
 <template>
-  <section class="dark:bg-black dark:text-white dark:duration-300">
+  <section class="dark:bg-gray-900 dark:text-white dark:duration-300">
     <div class="lg:h-screen flex justify-center">
       <div class="container mt-20">
         <div class="">
