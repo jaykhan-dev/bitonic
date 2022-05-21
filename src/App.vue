@@ -64,7 +64,9 @@ font-family: 'Share Tech Mono', monospace;
 h1 {
   font-family: "Odibee Sans", cursive;
 }
-p {
+p,
+h2,
+h3 {
   font-family: "Outfit", sans-serif;
 }
 body,

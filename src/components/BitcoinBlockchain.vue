@@ -1,10 +1,11 @@
 <template>
-  <div class="grid lg:grid-cols-4 gap-4 mt-20 p-2">
+  <h2 class="lg:text-4xl font-bold mt-20 p-2">Bitcoin</h2>
+  <div class="grid lg:grid-cols-4 gap-4 p-2" v-motion-fade>
     <!-- COL -->
     <div
       v-for="info in bitcoin"
       :key="info.id"
-      class="col-span-1 grid w-full gap-2 uppercase font-bold"
+      class="grid w-full gap-2 uppercase font-bold"
     >
       <!-- 1 -->
       <div class="border rounded-xl border-gray-400 dark:border-opacity-50 p-4">
@@ -24,9 +25,9 @@
     </div>
     <!-- CHART -->
     <div
-      class="col-span-3 border rounded-xl border-gray-400 dark:border-opacity-50 border-opacity-20 p-4"
+      class="lg:col-span-3 border rounded-xl border-gray-400 dark:border-opacity-50 border-opacity-20 p-4"
     >
-      <h3>Price</h3>
+      <h3>Chart</h3>
     </div>
   </div>
 </template>

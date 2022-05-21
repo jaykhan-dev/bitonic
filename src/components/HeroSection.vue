@@ -6,12 +6,19 @@
     <div
       class="dark:bg-black/90 bg-black/50 w-full flex justify-center h-screen"
     >
-      <div class="container grid place-items-center">
-        <div>
-          <h1 class="logo text-8xl font-bold">Bitonic</h1>
-          <p>The tonic for financial freedom</p>
+      <div class="container grid place-items-center" v-motion-fade>
+        <div class="text-center">
+          <h1 class="logo lg:text-9xl text-4xl font-bold">Bitonic</h1>
+          <p class="lg:text-2xl">The tonic for financial freedom</p>
 
-          <img src="" alt="" />
+          <lottie-player
+            src="https://assets7.lottiefiles.com/packages/lf20_yc9ywdm7.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            style="width: 500px; height: 500px"
+          ></lottie-player>
         </div>
       </div>
     </div>

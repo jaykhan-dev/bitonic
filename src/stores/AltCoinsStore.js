@@ -14,7 +14,7 @@ export const AltCoinsStore = defineStore("Coinlore", {
     async fetchAltCoinsInfo() {
       try {
         const data = await axios.get(
-          "https://api.coinlore.net/api/tickers/?start=1&limit=100"
+          "https://api.coinlore.net/api/tickers/?start=1&limit=50"
         );
         this.altcoins = data.data;
       } catch (error) {

@@ -1,15 +1,23 @@
 <template>
-  <div class="mt-20">
-    <h3 class="lg:text-2xl font-bold">AltCoins</h3>
+  <h2 class="lg:text-4xl font-bold mt-20 my-4">AltCoins</h2>
+  <div class="border dark:border-white dark:border-opacity-20 rounded-xl p-2">
+    <div class="grid grid-cols-4 p-2">
+      <h3>Rank</h3>
+      <h3>Coin</h3>
+      <h3>Price</h3>
+      <h3></h3>
+    </div>
     <div
-      class="grid border rounded-xl dark:border-gray-500"
-      v-for="info in altcoins"
+      class="border-b dark:border-b-gray-100 dark:border-opacity-10 justify-between p-2"
+      v-for="info in altcoins.data"
       :key="info.id"
+      v-motion-fade
     >
-      <!-- COL -->
-      <p>{{ info.data.rank }}</p>
-      <p>{{ info.data.name }}</p>
-      <p>{{ info.data.price_usd }}</p>
+      <div class="grid grid-cols-4 space-x-2">
+        <p>{{ info.rank }}</p>
+        <p>{{ info.name }}</p>
+        <p>{{ info.price_usd }}</p>
+      </div>
     </div>
   </div>
 </template>
