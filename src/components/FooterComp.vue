@@ -1,5 +1,5 @@
 <template>
-  <section class="dark:bg-black bg-gray-200 text-white">
+  <section class="dark:bg-black bg-gray-300 text-white">
     <div class="flex justify-evenly p-2">
       <div
         class="container grid lg:grid-cols-5 lg:w-3/4 dark:text-white text-black my-8"
@@ -18,9 +18,7 @@
         </div>
         <!-- COL -->
         <div>
-          <h2 class="uppercase text-green-500 font-bold text-sm my-4">
-            Charts
-          </h2>
+          <h2 class="uppercase text-green-500 font-bold text-sm my-4">Data</h2>
         </div>
         <!-- COL -->
         <div>
@@ -33,7 +31,7 @@
       </div>
     </div>
     <div
-      class="lg:flex justify-evenly border-t dark:border-white dark:border-opacity-10 border-black p-2 dark:text-white text-black"
+      class="lg:flex border-t justify-center dark:border-gray-900 border-gray-300 p-2 dark:text-white text-black"
     >
       <p>
         Built by

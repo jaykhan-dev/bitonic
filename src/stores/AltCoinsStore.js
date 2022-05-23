@@ -19,7 +19,7 @@ export const AltCoinsStore = defineStore("Coinlore", {
         );
         this.altcoins = data.data;
         this.loading = false;
-      }.bind(this)  catch (error) {
+      } catch (error) {
         alert(error);
         console.log(error);
       }

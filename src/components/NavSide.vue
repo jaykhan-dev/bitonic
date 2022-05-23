@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="lg:fixed lg:left-0 text-white lg:h-screen border-r border-white border-opacity-10 p-2 bg-black z-40"
+    class="fixed lg:left-0 text-white lg:h-screen border-r border-white border-opacity-10 p-2 bg-black z-40"
   >
     <div
       class="grid lg:place-items-start place-items-center mt-12 text-white lg:h-full"

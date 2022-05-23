@@ -5,7 +5,7 @@
     </div>
     <div v-for="job in jobs.items" :key="job.id" class="my-2" v-motion-fade>
       <div
-        class="border rounded-xl p-2 border-gray-700 dark:border-opacity-25 grid lg:grid-cols-5 gap-4 hover:bg-gray-800 hover:text-white w-full"
+        class="border rounded-xl p-2 border-gray-700 dark:border-opacity-25 grid lg:grid-cols-5 gap-4 hover:bg-gray-800 hover:text-white w-full duration-300"
       >
         <!-- COL -->
         <div class="flex items-center space-x-2">

@@ -1,5 +1,5 @@
 <template>
-  <div class="grid place-items-center dark:bg-gray-900">
+  <div class="grid place-items-center dark:bg-gray-900 h-screen">
     <lottie-player
       src="https://assets8.lottiefiles.com/packages/lf20_t9gkkhz4.json"
       background="transparent"

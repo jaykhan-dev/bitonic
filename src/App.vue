@@ -62,7 +62,7 @@ font-family: 'Share Tech Mono', monospace;
   font-family: "Baumans", cursive;
 }
 h1 {
-  font-family: "Odibee Sans", cursive;
+  font-family: "Alata", sans-serif;
 }
 p,
 h2,
