@@ -15,12 +15,12 @@
         </button>
         <router-link to="/search">
           <button>
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass hover:text-green-500"></i>
           </button>
         </router-link>
         <router-link to="/wallet">
           <button class="">
-            <i class="fa-solid fa-wallet"></i>
+            <i class="fa-solid fa-wallet hover:text-green-500"></i>
           </button>
         </router-link>
       </div>

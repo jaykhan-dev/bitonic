@@ -1,23 +1,23 @@
 import { defineStore } from "pinia";
 import axios from "axios";
 
-export const BitcoinStore = defineStore("BitcoinInfo", {
+export const JobsStore = defineStore("BitcoinJobs", {
   state: () => ({
-    bitcoin: [],
+    jobs: [],
     loading: true,
   }),
   getters: {
-    getBitcoinInfo(state) {
-      return state.bitcoin;
+    getJobs(state) {
+      return state.jobs;
     },
   },
   actions: {
-    async fetchBitcoinInfo() {
+    async fetchBitcoinJobs() {
       try {
         const data = await axios.get(
-          "https://api.coinlore.net/api/ticker/?id=90"
+          "https://khanquest.herokuapp.com/api/v2/pages/?type=BitcoinJobs.BitcoinJobsPage&fields=*"
         );
-        this.bitcoin = data.data;
+        this.jobs = data.data;
         this.loading = false;
       } catch (error) {
         alert(error);

@@ -4,6 +4,7 @@ import axios from "axios";
 export const AltCoinsStore = defineStore("Coinlore", {
   state: () => ({
     altcoins: [],
+    loading: true,
   }),
   getters: {
     getAltCoinsInfo(state) {
@@ -17,7 +18,8 @@ export const AltCoinsStore = defineStore("Coinlore", {
           "https://api.coinlore.net/api/tickers/?start=1&limit=50"
         );
         this.altcoins = data.data;
-      } catch (error) {
+        this.loading = false;
+      }.bind(this)  catch (error) {
         alert(error);
         console.log(error);
       }

@@ -1,6 +1,9 @@
 <template>
-  <h2 class="lg:text-4xl font-bold mt-20 p-2">Bitcoin</h2>
-  <div class="grid lg:grid-cols-4 gap-4 p-2" v-motion-fade>
+  <h2 class="lg:text-4xl font-bold mt-20 p-2" v-motion-slide-right>Bitcoin</h2>
+  <div v-if="store.loading == true">
+    <LoadingScreen />
+  </div>
+  <div class="grid lg:grid-cols-4 gap-4 p-2 my-20" v-motion-fade>
     <!-- COL -->
     <div
       v-for="info in bitcoin"
@@ -35,6 +38,8 @@
 <script setup>
 import { onMounted, computed } from "vue";
 import { BitcoinStore } from "../stores/BitcoinStore";
+
+import LoadingScreen from "../components/LoadingScreen.vue";
 
 const store = BitcoinStore();
 const bitcoin = computed(() => {

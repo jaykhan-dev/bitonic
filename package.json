@@ -16,8 +16,10 @@
     "gsap": "^3.10.4",
     "lnurl": "^0.24.1",
     "pinia": "^2.0.13",
+    "prismjs": "^1.28.0",
     "vue": "^3.2.33",
-    "vue-router": "^4.0.14"
+    "vue-router": "^4.0.14",
+    "vue3-marquee": "^3.0.3"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",

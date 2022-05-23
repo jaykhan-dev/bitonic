@@ -20,9 +20,14 @@ const router = createRouter({
       component: () => import("../views/NewsView.vue"),
     },
     {
-      path: "/charts",
-      name: "charts",
-      component: () => import("../views/ChartsView.vue"),
+      path: "/news/:slug",
+      name: "NewsPage",
+      component: () => import("../components/NewsPage.vue"),
+    },
+    {
+      path: "/data",
+      name: "data",
+      component: () => import("../views/DataView.vue"),
     },
     {
       path: "/learn",
@@ -30,9 +35,19 @@ const router = createRouter({
       component: () => import("../views/LearnView.vue"),
     },
     {
+      path: "/learn/:slug",
+      name: "ArticlePage",
+      component: () => import("../components/ArticlePage.vue"),
+    },
+    {
       path: "/jobs",
       name: "jobs",
       component: () => import("../views/JobsView.vue"),
+    },
+    {
+      path: "/jobs/:slug",
+      name: "JobPage",
+      component: () => import("../components/JobPage.vue"),
     },
     {
       path: "/search",
