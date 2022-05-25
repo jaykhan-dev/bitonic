@@ -4,6 +4,7 @@ import axios from "axios";
 export const NewsStore = defineStore("BitcoinNewsStore", {
   state: () => ({
     news: [],
+    loading: true,
   }),
   getters: {
     getBitcoinNews(state) {
@@ -17,6 +18,7 @@ export const NewsStore = defineStore("BitcoinNewsStore", {
           "https://khanquest.herokuapp.com/api/v2/pages/?type=BitcoinNews.BitcoinNewsPage&fields=*"
         );
         this.news = data.data;
+        this.loading = false;
       } catch (error) {
         alert(error);
         console.log(error);

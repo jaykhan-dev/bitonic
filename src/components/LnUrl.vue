@@ -1,6 +1,6 @@
 <template>
   <section class="dark:bg-gray-900 dark:text-white dark:duration-300 p-2">
-    <div class="lg:h-screen flex justify-center">
+    <div class="flex justify-center">
       <div class="container mt-20">
         <div
           class="lg:flex justify-between items-center p-4 bg-gradient-to-r from-blue-600 to-purple-500 rounded-xl shadow-xl my-8 text-white"
@@ -18,12 +18,17 @@
             style="width: 100px; height: 100px"
           ></lottie-player>
         </div>
+        <!-- QR CODE -->
+        <QRCode />
       </div>
     </div>
   </section>
+  <LightningInfo />
 </template>
 
 <script setup>
+import LightningInfo from "../components/LightningInfo.vue";
+import QRCode from "../components/QRCode.vue";
 import { onMounted } from "vue";
 
 onMounted(() => {

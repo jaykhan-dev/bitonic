@@ -1,4 +1,7 @@
 <template>
+  <div v-if="store.loading == true">
+    <LoadingScreen />
+  </div>
   <div class="grid lg:grid-cols-4 gap-4">
     <div v-for="article in articles.items" :key="article.id">
       <div
@@ -32,6 +35,7 @@
 </template>
 
 <script setup>
+import LoadingScreen from "../components/LoadingScreen.vue";
 import { onMounted, computed } from "vue";
 import { LearnStore } from "../stores/LearnStore";
 

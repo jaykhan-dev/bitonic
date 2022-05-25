@@ -29,7 +29,7 @@ import HeroSection from "../components/HeroSection.vue";
         <!-- COL -->
         <div>
           <h3 class="lg:text-4xl text-2xl font-bold my-4 text-green-500">
-            Charts
+            Data
           </h3>
           <p>Follow the latest prices and data</p>
         </div>
