@@ -2,7 +2,7 @@
   <div v-if="store.loading == true">
     <LoadingScreen />
   </div>
-  <div class="grid lg:grid-cols-5 gap-4">
+  <div class="grid lg:grid-cols-3 gap-4">
     <div v-for="story in news.items" :key="story.id" class="my-2">
       <div
         class="border border-gray-600 p-2 rounded-xl hover:bg-gray-800 hover:text-white duration-300 hover:shadow"

@@ -1,7 +1,7 @@
 <template>
   <section class="dark:bg-gray-900 dark:text-white dark:duration-300 p-2">
     <div class="flex justify-center">
-      <div class="container mt-20">
+      <div class="lg:w-1/2 mt-20">
         <div
           class="lg:flex justify-between items-center p-4 bg-gradient-to-r from-blue-600 to-purple-500 rounded-xl shadow-xl my-8 text-white"
           v-motion-slide-left

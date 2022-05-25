@@ -1,12 +1,17 @@
 <template>
   <!-- WALLETS -->
   <section class="dark:bg-gray-900 dark:text-white flex justify-center">
-    <div class="container">
+    <div class="lg:w-1/2">
       <!-- WALLETS -->
-      <div class="">
-        <h2 class="lg:text-4xl font-bold text-2xl my-4">Lightning Wallets</h2>
-        <p>The Lightning Network is unfairly cheap, and blazing fast!</p>
-        <div class="grid lg:grid-cols-5 text-2xl font-bold place-items-center">
+      <div class="grid lg:grid-cols-2">
+        <div>
+          <h2 class="lg:text-8xl font-bold text-2xl">Lightning Wallets</h2>
+          <p class="my-8">
+            The Lightning Network is unfairly cheap, and blazing fast!
+          </p>
+        </div>
+
+        <div class="grid lg:grid-cols-1 text-2xl font-bold gap-4">
           <!-- COL -->
           <div>
             <img src="" alt="" />
@@ -35,32 +40,6 @@
             <a href="https://zeusln.app/" rel="">Zeus</a>
           </div>
         </div>
-      </div>
-      <!-- EXCHANGES -->
-      <div class="">
-        <h2 class="lg:text-4xl font-bold my-4">Exchanges</h2>
-        <p>These are a few of the top exchanges for buying Bitcoin</p>
-        <div class="grid lg:grid-cols-3">
-          <!-- COINBASE -->
-          <div>
-            <img src="" alt="" width="" height="75" />
-            <a class="">Coinbase</a>
-          </div>
-          <!-- BINANCE -->
-          <div>
-            <img src="" alt="" width="" height="75" />
-            <a class="">Binance</a>
-          </div>
-          <!-- KRAKEN -->
-          <div>
-            <img src="" alt="" width="" height="75" />
-            <a class="">Kraken</a>
-          </div>
-        </div>
-      </div>
-      <!-- BENEGITS -->
-      <div>
-        <h3>Why Lightning?</h3>
       </div>
     </div>
   </section>

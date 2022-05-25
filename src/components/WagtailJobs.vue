@@ -33,8 +33,8 @@
         </div>
         <!-- COL -->
         <div class="flex space-x-8 items-center">
-          <p>Applied:</p>
-          <p>Earned:</p>
+          <p>Location:</p>
+          <p>Salary:</p>
         </div>
         <!-- COL -->
         <div class="lg:flex items-center justify-end">

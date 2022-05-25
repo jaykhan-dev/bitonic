@@ -2,7 +2,7 @@
   <div v-if="store.loading == true">
     <LoadingScreen />
   </div>
-  <div class="grid lg:grid-cols-4 gap-4">
+  <div class="grid lg:grid-cols-3 gap-4">
     <div v-for="article in articles.items" :key="article.id">
       <div
         class="border dark:border-gray-700 hover:bg-gray-700 duration-300 hover:shadow-2xl hover:-translate-y-2 hover:text-white p-2 rounded-xl"

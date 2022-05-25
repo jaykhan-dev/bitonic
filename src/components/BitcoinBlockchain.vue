@@ -1,36 +1,63 @@
 <template>
-  <h2 class="lg:text-4xl font-bold mt-20 p-2" v-motion-slide-right>Bitcoin</h2>
+  <!-- LOADING SCREEN -->
   <div v-if="store.loading == true">
     <LoadingScreen />
   </div>
-  <div class="grid lg:grid-cols-4 gap-4 p-2 my-20" v-motion-fade>
-    <!-- COL -->
-    <div
-      v-for="info in bitcoin"
-      :key="info.id"
-      class="grid w-full gap-2 uppercase font-bold"
-    >
-      <!-- 1 -->
-      <div class="border rounded-xl border-gray-400 dark:border-opacity-50 p-4">
-        <h3 class="text-green-500">Current Price (USD)</h3>
-        <p class="lg:text-4xl text-2xl my-2">${{ info.price_usd }}</p>
+  <!-- BITCOIN BLOCKCHAIN API -->
+  <div v-for="info in bitcoin" :key="info.id">
+    <!-- INTRO INFO -->
+    <div class="grid lg:grid-cols-2 gap-4 p-2">
+      <!-- COL -->
+      <div
+        class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
+      >
+        <h2 class="lg:text-4xl font-bold" v-motion-slide-right>About</h2>
+        <p class="my-4">
+          Perhaps the most revolutionary technology to emerge since the web was
+          first introduced in the early 90's.
+          <br /><br />
+          The Bitcoin Blockchain has seen massive growths but also volatile
+          price jumps. What is clear, however, is that the idea of a digital
+          currency without a central authority and a fixed supply has taken off.
+        </p>
+        <p>{{ info.rank }}</p>
+        <p>{{ info.msupply }}</p>
+        <p>{{ info.csupply }}</p>
       </div>
-      <!-- 2 -->
-      <div class="border rounded-xl border-gray-400 dark:border-opacity-50 p-4">
-        <h3 class="text-green-500">Market cap</h3>
-        <p class="lg:text-4xl my-2">${{ info.market_cap_usd }}</p>
+
+      <!-- COL -->
+      <div
+        class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
+      >
+        Bitcoin Data
+        {{ info.price_usd }}
+        {{ info.percent_change_24h }}
       </div>
-      <!-- 3 -->
-      <div class="border rounded-xl border-gray-400 dark:border-opacity-50 p-4">
-        <h3 class="text-green-500">Price change (24H)</h3>
-        <p class="lg:text-4xl my-2">${{ info.percent_change_24h }}</p>
+      <!-- COL -->
+      <div
+        class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
+      >
+        dominance
       </div>
-    </div>
-    <!-- CHART -->
-    <div
-      class="lg:col-span-3 border rounded-xl border-gray-400 dark:border-opacity-50 border-opacity-20 p-4"
-    >
-      <h3>Chart</h3>
+
+      <!-- COL -->
+      <div
+        class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
+      >
+        Exchanges
+      </div>
+      <!-- COL -->
+      <div
+        class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
+      >
+        Mining
+      </div>
+      <!-- COL -->
+      <div
+        class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
+      >
+        Resources
+      </div>
     </div>
   </div>
 </template>

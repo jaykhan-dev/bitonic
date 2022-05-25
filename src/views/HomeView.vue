@@ -7,12 +7,12 @@ import HeroSection from "../components/HeroSection.vue";
     <HeroSection />
     <!-- BLURB -->
     <section class="dark:bg-gray-900 dark:text-white flex justify-center">
-      <div class="container" v-motion-slide-left>
+      <div class="lg:w-1/2" v-motion-slide-left>
         <h2 class="lg:text-8xl text-4xl font-bold my-20">
           Bitcoin is the future of money.
         </h2>
         <h2 class="lg:text-8xl text-4xl font-bold my-20">
-          If you want financial health, <br />read on.
+          If you want financial health, read on.
         </h2>
       </div>
     </section>
