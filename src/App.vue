@@ -1,7 +1,7 @@
 <template>
   <div :class="isDark ? 'dark' : ''" class="">
     <div
-      class="fixed top-0 w-full z-50 flex justify-between text-white bg-black border-b border-white border-opacity-10 p-2"
+      class="fixed top-0 w-full z-50 lg:flex lg:justify-between justify-center text-white bg-black border-b border-white border-opacity-10 p-4"
     >
       <router-link to="/">
         <h1 id="logo" class="logo text-2xl font-bold text-green-600">
@@ -9,6 +9,18 @@
         </h1>
       </router-link>
       <div class="space-x-4 text-xl mr-4">
+        <router-link to="/news">
+          <i class="fa-solid fa-newspaper hover:text-green-500"></i>
+        </router-link>
+        <router-link to="/data">
+          <i class="fa-solid fa-chart-line hover:text-green-500"></i>
+        </router-link>
+        <router-link to="/learn">
+          <i class="fa-solid fa-building-columns hover:text-green-500"></i>
+        </router-link>
+        <router-link to="/jobs">
+          <i class="fa-solid fa-gears hover:text-green-500"></i>
+        </router-link>
         <button type="button" @click="isDark = !isDark">
           <i class="fa-solid fa-sun text-yellow-500 hidden dark:block"></i>
           <i class="fa-solid fa-moon block dark:hidden"></i>
@@ -25,19 +37,17 @@
         </router-link>
       </div>
     </div>
-    <NavSide />
+    <router-view />
     <FooterComp />
   </div>
 </template>
 
 <script>
 import FooterComp from "./components/FooterComp.vue";
-import NavSide from "./components/NavSide.vue";
 
 export default {
   name: "app",
   components: {
-    NavSide,
     FooterComp,
   },
   data() {

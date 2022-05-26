@@ -3,22 +3,14 @@
     class="dark:bg-black text-white dark:duration-300 bg-fixed"
     id="hero-section"
   >
-    <div class="dark:bg-black/90 bg-black/50 w-full flex justify-center">
-      <div class="container grid place-items-center" v-motion-fade>
-        <div class="text-center mt-20 grid place-items-center">
-          <h1 class="logo lg:text-9xl text-6xl font-bold mt-8">Bit & Tonic</h1>
-          <p class="lg:text-2xl">Proof-of-Work</p>
-
-          <lottie-player
-            src="https://assets3.lottiefiles.com/private_files/lf30_ukfmytdx.json"
-            background="transparent"
-            speed="1"
-            loop
-            autoplay
-            style="width: 400px; height: 400px"
-            class="mix-blend-overlay"
-          ></lottie-player>
-        </div>
+    <div
+      class="dark:bg-black/70 bg-black/50 w-full h-screen grid place-items-center"
+    >
+      <div class="grid place-items-center">
+        <h1 class="logo lg:text-6xl text-6xl font-bold mt-8">Bit & Tonic</h1>
+        <p class="text-2xl lg:w-1/2 my-8">
+          Bitcoin is the future of money. The tonic for financial health.
+        </p>
       </div>
     </div>
   </section>
@@ -26,7 +18,7 @@
 
 <style>
 #hero-section {
-  background-image: url("../assets/mongolia-wilderness-6.jpg");
+  background-image: url("../assets/abstract-lines.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

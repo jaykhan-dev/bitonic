@@ -5,36 +5,32 @@ import HeroSection from "../components/HeroSection.vue";
 <template>
   <main>
     <HeroSection />
-    <!-- BLURB -->
-    <section class="dark:bg-gray-900 dark:text-white flex justify-center p-2">
-      <div class="lg:w-1/2 relative" v-motion-slide-left>
-        <h2 class="lg:text-8xl text-4xl font-bold my-20">
-          Bitcoin is the future of money.
-        </h2>
-        <h2 class="lg:text-8xl text-4xl font-bold my-20">
-          The tonic for financial health.
-        </h2>
-        <lottie-player
-          src="https://assets2.lottiefiles.com/packages/lf20_ekuehted.json"
-          background="transparent"
-          speed="1"
-          loop
-          autoplay
-          style="width: 200px; height: 200px"
-          class=""
-        ></lottie-player>
-      </div>
-    </section>
+
     <!-- PURPOSE OF BITONIC -->
     <section
-      class="dark:bg-gray-900 dark:text-white flex justify-center p-2"
+      class="dark:bg-black dark:text-white flex justify-center p-2"
       v-motion-slide-right
     >
-      <div
-        class="container grid lg:grid-cols-4 grid-cols-2 gap-4 lg:w-2/4 my-20"
-      >
+      <div class="container grid lg:grid-cols-2 gap-4 lg:w-2/4 my-20">
+        <!-- SECTION HEADING -->
+        <div class="lg:w-1/2 grid place-items-center" v-motion-slide-left>
+          <h2 class="text-6xl font-bold my-4">Areas of interest</h2>
+          <p>
+            Explore the resources, jobs, and learning material that has been
+            curated and vetted.
+          </p>
+          <lottie-player
+            src="https://assets2.lottiefiles.com/packages/lf20_ekuehted.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            style="width: 200px; height: 200px"
+            class=""
+          ></lottie-player>
+        </div>
         <!-- COL -->
-        <div>
+        <div class="border p-4 border-gray-600 rounded-xl">
           <i class="fa-solid fa-newspaper hover:text-green-500 text-6xl"></i>
           <h3 class="lg:text-4xl text-2xl font-bold my-4 text-green-500">
             News
@@ -69,7 +65,11 @@ import HeroSection from "../components/HeroSection.vue";
         </div>
       </div>
     </section>
-    <!-- Partners -->
+    <!-- NEWS -->
+    <section class="dark:bg-gray-900 dark:text-white">
+      <div class="container grid lg:grid-cols-5"></div>
+    </section>
+    <!-- WALLET -->
     <section class="dark:bg-gray-900 dark:text-white">
       <div class="container grid lg:grid-cols-5"></div>
     </section>
@@ -78,6 +78,14 @@ import HeroSection from "../components/HeroSection.vue";
       <div
         class="grid place-items-center bg-gradient-to-r from-green-500 to-green-400 py-20"
       >
+        <div class="grid place-items-center">
+          <h2 class="lg:text-6xl font-bold my-4">Connect your wallet</h2>
+          <p class="lg:w-1/3 text-center text-2xl">
+            To apply to jobs and start stacking satoshis, login with your
+            lightning wallet. This is web3.
+          </p>
+          <img src="" alt="" />
+        </div>
         <lottie-player
           src="https://assets10.lottiefiles.com/packages/lf20_5badh7fj.json"
           background="transparent"
@@ -89,7 +97,7 @@ import HeroSection from "../components/HeroSection.vue";
         ></lottie-player>
         <router-link to="/wallet">
           <button
-            class="p-2 px-4 rounded-xl border bg-green-500 hover:bg-black text-white text-2xl font-bold uppercase hover:scale-95 duration-300"
+            class="p-2 px-4 rounded-xl border bg-black text-white text-2xl font-bold uppercase hover:scale-95 duration-300"
           >
             Get Started
           </button>
