@@ -7,18 +7,27 @@ import HeroSection from "../components/HeroSection.vue";
     <HeroSection />
     <!-- BLURB -->
     <section class="dark:bg-gray-900 dark:text-white flex justify-center">
-      <div class="lg:w-1/2" v-motion-slide-left>
+      <div class="lg:w-1/2 relative" v-motion-slide-left>
         <h2 class="lg:text-8xl text-4xl font-bold my-20">
           Bitcoin is the future of money.
         </h2>
         <h2 class="lg:text-8xl text-4xl font-bold my-20">
-          If you want financial health, read on.
+          The tonic for financial health.
         </h2>
+        <lottie-player
+          src="https://assets2.lottiefiles.com/packages/lf20_ekuehted.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+          style="width: 200px; height: 200px"
+          class=""
+        ></lottie-player>
       </div>
     </section>
     <!-- PURPOSE OF BITONIC -->
     <section class="dark:bg-gray-900 dark:text-white flex justify-center">
-      <div class="container grid lg:grid-cols-4 gap-4 lg:w-2/4">
+      <div class="container grid lg:grid-cols-4 gap-4 lg:w-2/4 my-20">
         <!-- COL -->
         <div>
           <h3 class="lg:text-4xl text-2xl font-bold my-4 text-green-500">
@@ -55,10 +64,21 @@ import HeroSection from "../components/HeroSection.vue";
     </section>
     <!-- IMAGE PARALLAX -->
     <section class="bg-fixed" id="get-started">
-      <div class="grid place-items-center h-48 bg-black/70">
+      <div
+        class="grid place-items-center bg-gradient-to-r from-green-500 to-green-400 py-20"
+      >
+        <lottie-player
+          src="https://assets10.lottiefiles.com/packages/lf20_5badh7fj.json"
+          background="transparent"
+          speed="1"
+          loop
+          autoplay
+          style="width: 300px; height: 300px"
+          class=""
+        ></lottie-player>
         <router-link to="/wallet">
           <button
-            class="p-2 px-4 rounded-xl border bg-green-500 hover:bg-green-700 text-white text-2xl font-bold uppercase hover:scale-95 duration-300"
+            class="p-2 px-4 rounded-xl border bg-green-500 hover:bg-black text-white text-2xl font-bold uppercase hover:scale-95 duration-300"
           >
             Get Started
           </button>

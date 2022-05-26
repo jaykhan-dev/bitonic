@@ -2,6 +2,19 @@
   <section class="dark:bg-black bg-gray-300 text-white" id="footer-section">
     <!-- FILTER -->
     <div class="bg-gradient-to-r from-black to-black/70 py-20">
+      <div class="flex justify-center">
+        <div class="lg:w-1/2">
+          <lottie-player
+            src="https://assets8.lottiefiles.com/packages/lf20_dO8Ir9.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            style="width: 200px; height: 200px"
+            class=""
+          ></lottie-player>
+        </div>
+      </div>
       <!-- SUBSCRIBE -->
       <div class="flex justify-center">
         <div class="grid lg:w-1/2">

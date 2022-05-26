@@ -10,11 +10,13 @@
           <p class="lg:text-2xl">The tonic for financial freedom</p>
 
           <lottie-player
-            src="https://assets7.lottiefiles.com/packages/lf20_yc9ywdm7.json"
+            src="https://assets3.lottiefiles.com/private_files/lf30_ukfmytdx.json"
             background="transparent"
             speed="1"
             loop
             autoplay
+            style="width: 500px; height: 500px"
+            class="mix-blend-overlay"
           ></lottie-player>
         </div>
       </div>
