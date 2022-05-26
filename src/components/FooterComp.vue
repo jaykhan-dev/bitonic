@@ -37,10 +37,10 @@
         <div class="grid lg:grid-cols-2 lg:w-1/2">
           <!-- COL -->
           <div>
-            <h3 class="font-bold text-4xl">Bitonic</h3>
+            <h3 class="text-sm uppercase text-green-500">Bitcoin</h3>
             <p class="text-2xl">
-              Bitcoin is a monetary solution. It is the tonic for financial
-              freedom.
+              Bitcoin is a monetary solution. The blockchain has given rise to a
+              crypto ecosystem that shows no signs of stopping.
             </p>
           </div>
           <!-- COL -->

@@ -5,7 +5,7 @@
     >
       <router-link to="/">
         <h1 id="logo" class="logo text-2xl font-bold text-green-600">
-          Bitonic
+          Bit & Tonic
         </h1>
       </router-link>
       <div class="space-x-4 text-xl mr-4">
