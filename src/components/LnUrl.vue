@@ -10,7 +10,7 @@
             Connect your Lightning wallet
           </h1>
           <lottie-player
-            src="https://assets1.lottiefiles.com/private_files/lf30_0vn96xcf.json"
+            src="https://assets1.lottiefiles.com/packages/lf20_6k4jsmai.json"
             background="transparent"
             speed="1"
             loop
