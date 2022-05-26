@@ -78,7 +78,9 @@
         <div class="lg:w-1/2">
           <h3 class="text-sm uppercase text-green-500">© Bitonic</h3>
           <div class="lg:flex space-x-4 text-2xl font-bold">
-            <a href="">@jaykhan_sound</a>
+            <a href="https://jkhan.live" class="hover:text-green-600"
+              >designed by <span class="font-mono">jay khan</span></a
+            >
           </div>
         </div>
       </div>
@@ -88,9 +90,9 @@
 
 <style>
 #footer-section {
-  background-image: url("../assets/mother-board-bg.png");
+  background-image: url("../assets/chemistry-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
 }
 </style>

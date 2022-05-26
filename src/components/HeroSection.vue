@@ -7,7 +7,7 @@
       <div class="container grid place-items-center" v-motion-fade>
         <div class="text-center mt-20">
           <h1 class="logo lg:text-9xl text-4xl font-bold">Bitonic</h1>
-          <p class="lg:text-2xl">The tonic for financial freedom</p>
+          <p class="lg:text-2xl">The tonic for financial health</p>
 
           <lottie-player
             src="https://assets3.lottiefiles.com/private_files/lf30_ukfmytdx.json"

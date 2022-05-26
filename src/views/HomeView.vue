@@ -26,10 +26,14 @@ import HeroSection from "../components/HeroSection.vue";
       </div>
     </section>
     <!-- PURPOSE OF BITONIC -->
-    <section class="dark:bg-gray-900 dark:text-white flex justify-center">
+    <section
+      class="dark:bg-gray-900 dark:text-white flex justify-center"
+      v-motion-slide-right
+    >
       <div class="container grid lg:grid-cols-4 gap-4 lg:w-2/4 my-20">
         <!-- COL -->
         <div>
+          <i class="fa-solid fa-newspaper hover:text-green-500 text-6xl"></i>
           <h3 class="lg:text-4xl text-2xl font-bold my-4 text-green-500">
             News
           </h3>
@@ -37,6 +41,7 @@ import HeroSection from "../components/HeroSection.vue";
         </div>
         <!-- COL -->
         <div>
+          <i class="fa-solid fa-chart-line hover:text-green-500 text-6xl"></i>
           <h3 class="lg:text-4xl text-2xl font-bold my-4 text-green-500">
             Data
           </h3>
@@ -44,6 +49,9 @@ import HeroSection from "../components/HeroSection.vue";
         </div>
         <!-- COL -->
         <div>
+          <i
+            class="fa-solid fa-building-columns hover:text-green-500 text-6xl"
+          ></i>
           <h3 class="lg:text-4xl text-2xl font-bold my-4 text-green-500">
             Learn
           </h3>
@@ -51,6 +59,7 @@ import HeroSection from "../components/HeroSection.vue";
         </div>
         <!-- COL -->
         <div>
+          <i class="fa-solid fa-gears hover:text-green-500 text-6xl"></i>
           <h3 class="lg:text-4xl text-2xl font-bold my-4 text-green-500">
             Jobs
           </h3>
