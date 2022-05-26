@@ -5,8 +5,8 @@
   >
     <div class="dark:bg-black/90 bg-black/50 w-full flex justify-center">
       <div class="container grid place-items-center" v-motion-fade>
-        <div class="text-center mt-20">
-          <h1 class="logo lg:text-9xl text-4xl font-bold">Bit & Tonic</h1>
+        <div class="text-center mt-20 grid place-items-center">
+          <h1 class="logo lg:text-9xl text-6xl font-bold mt-8">Bit & Tonic</h1>
           <p class="lg:text-2xl">Proof-of-Work</p>
 
           <lottie-player
@@ -15,7 +15,7 @@
             speed="1"
             loop
             autoplay
-            style="width: 500px; height: 500px"
+            style="width: 400px; height: 400px"
             class="mix-blend-overlay"
           ></lottie-player>
         </div>

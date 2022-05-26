@@ -6,7 +6,7 @@ import HeroSection from "../components/HeroSection.vue";
   <main>
     <HeroSection />
     <!-- BLURB -->
-    <section class="dark:bg-gray-900 dark:text-white flex justify-center">
+    <section class="dark:bg-gray-900 dark:text-white flex justify-center p-2">
       <div class="lg:w-1/2 relative" v-motion-slide-left>
         <h2 class="lg:text-8xl text-4xl font-bold my-20">
           Bitcoin is the future of money.
@@ -27,10 +27,12 @@ import HeroSection from "../components/HeroSection.vue";
     </section>
     <!-- PURPOSE OF BITONIC -->
     <section
-      class="dark:bg-gray-900 dark:text-white flex justify-center"
+      class="dark:bg-gray-900 dark:text-white flex justify-center p-2"
       v-motion-slide-right
     >
-      <div class="container grid lg:grid-cols-4 gap-4 lg:w-2/4 my-20">
+      <div
+        class="container grid lg:grid-cols-4 grid-cols-2 gap-4 lg:w-2/4 my-20"
+      >
         <!-- COL -->
         <div>
           <i class="fa-solid fa-newspaper hover:text-green-500 text-6xl"></i>

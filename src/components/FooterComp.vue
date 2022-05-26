@@ -1,7 +1,7 @@
 <template>
   <section class="dark:bg-black bg-gray-300 text-white" id="footer-section">
     <!-- FILTER -->
-    <div class="bg-gradient-to-r from-black to-black/70 py-20">
+    <div class="bg-gradient-to-r from-black to-black/70 py-20 p-2">
       <div class="flex justify-center">
         <div class="lg:w-1/2">
           <lottie-player
@@ -21,7 +21,7 @@
           <!-- COL -->
           <div>
             <h3 class="font-bold text-4xl">Get updates!</h3>
-            <div class="flex space-x-4">
+            <div class="lg:flex space-x-4">
               <input
                 type="text"
                 placeholder="email"
@@ -50,7 +50,7 @@
         </div>
       </div>
       <!-- PAGES -->
-      <div class="flex justify-center my-20">
+      <div class="flex lg:justify-center my-20">
         <div class="lg:w-1/2">
           <h3 class="text-sm uppercase text-green-500">Areas of interest</h3>
           <div class="lg:flex space-x-4 text-2xl font-bold">
@@ -62,7 +62,7 @@
         </div>
       </div>
       <!-- COL -->
-      <div class="flex justify-center my-20">
+      <div class="flex lg:justify-center my-20">
         <div class="lg:w-1/2 text-2xl">
           <h3 class="text-sm uppercase text-green-500">Connect</h3>
           <div class="lg:flex space-x-4 text-2xl font-bold">
@@ -74,9 +74,9 @@
       </div>
 
       <!-- COPYRIGHT -->
-      <div class="flex justify-center">
+      <div class="flex lg:justify-center">
         <div class="lg:w-1/2">
-          <h3 class="text-sm uppercase text-green-500">© Bitonic</h3>
+          <h3 class="text-sm uppercase text-green-500">© Bit & Tonic</h3>
           <div class="lg:flex space-x-4 text-2xl font-bold">
             <a href="https://jkhan.live" class="hover:text-green-600"
               >designed by <span class="font-mono">jay khan</span></a
@@ -92,7 +92,7 @@
 #footer-section {
   background-image: url("../assets/chemistry-bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left;
+  background-size: contain;
+  background-position: right;
 }
 </style>
