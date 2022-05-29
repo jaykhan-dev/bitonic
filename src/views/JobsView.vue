@@ -26,5 +26,5 @@
 </template>
 
 <script setup>
-import WagtailJobs from "../components/WagtailJobs.vue";
+import WagtailJobs from "../components/WagtailAPI/WagtailJobs.vue";
 </script>

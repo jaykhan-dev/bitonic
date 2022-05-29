@@ -4,11 +4,14 @@
       class="fixed top-0 w-full z-50 lg:flex lg:justify-between justify-center text-white bg-black border-b border-white border-opacity-10 p-4"
     >
       <router-link to="/">
-        <h1 id="logo" class="logo text-2xl font-bold text-green-600">
-          Bit & Tonic
+        <h1
+          id="logo"
+          class="logo text-2xl font-bold text-green-600 text-center"
+        >
+          BTonic
         </h1>
       </router-link>
-      <div class="space-x-4 text-xl mr-4">
+      <div class="space-x-4 text-xl mr-4 flex justify-center">
         <router-link to="/news">
           <i class="fa-solid fa-newspaper hover:text-green-500"></i>
         </router-link>
@@ -18,10 +21,11 @@
         <router-link to="/learn">
           <i class="fa-solid fa-building-columns hover:text-green-500"></i>
         </router-link>
-        <router-link to="/jobs">
+        <router-link to="/jobs" class="border-r border-gray-700 pr-4">
           <i class="fa-solid fa-gears hover:text-green-500"></i>
         </router-link>
-        <button type="button" @click="isDark = !isDark">
+        <!-- GLOBAL -->
+        <button type="button" @click="isDark = !isDark" class="">
           <i class="fa-solid fa-sun text-yellow-500 hidden dark:block"></i>
           <i class="fa-solid fa-moon block dark:hidden"></i>
         </button>

@@ -26,7 +26,7 @@
 </template>
 
 <script setup>
-import WagtailNews from "../components/WagtailNews.vue";
+import WagtailNews from "../components/WagtailAPI/WagtailNews.vue";
 import { onMounted } from "vue";
 
 onMounted(() => {

@@ -33,9 +33,9 @@
 </template>
 
 <script setup>
-import LoadingScreen from "../components/LoadingScreen.vue";
+import LoadingScreen from "../LoadingScreen.vue";
 import { onMounted, computed } from "vue";
-import { NewsStore } from "../stores/NewsStore";
+import { NewsStore } from "../../stores/NewsStore";
 
 const store = NewsStore();
 const news = computed(() => {

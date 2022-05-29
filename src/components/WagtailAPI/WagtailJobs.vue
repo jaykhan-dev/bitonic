@@ -84,9 +84,9 @@
 
 <script setup>
 import { onMounted, computed } from "vue";
-import { JobsStore } from "../stores/JobsStore";
+import { JobsStore } from "../../stores/JobsStore";
 
-import LoadingScreen from "../components/LoadingScreen.vue";
+import LoadingScreen from "../LoadingScreen.vue";
 
 const store = JobsStore();
 const jobs = computed(() => {

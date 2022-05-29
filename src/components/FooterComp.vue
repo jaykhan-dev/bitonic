@@ -50,9 +50,7 @@
         <div class="lg:w-1/2 grid lg:grid-cols-3 gap-4">
           <!-- COL -->
           <div class="">
-            <h3 class="text-sm uppercase text-green-500">
-              © Bit & Tonic. 2022.
-            </h3>
+            <h3 class="text-sm uppercase text-green-500">© BTonic. 2022.</h3>
             <div class="flex flex-col text-xl font-bold">
               <p class="text-4xl">The tonic for financial health</p>
               <a href="https://jkhan.live" class="hover:text-green-600"

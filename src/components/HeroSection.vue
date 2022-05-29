@@ -7,7 +7,7 @@
       class="dark:bg-black/70 bg-black/50 w-full h-screen grid place-items-center"
     >
       <div class="grid place-items-center" v-motion-fade :delay="500">
-        <h1 class="logo lg:text-6xl text-6xl font-bold mt-8">Bit & Tonic</h1>
+        <h1 class="logo lg:text-6xl text-6xl font-bold mt-8">BTonic</h1>
         <p class="text-2xl lg:w-1/2 my-8">
           Bitcoin is the future of money. The tonic for financial health.
         </p>

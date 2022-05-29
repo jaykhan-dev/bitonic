@@ -27,7 +27,7 @@
 
 <script setup>
 import { onMounted } from "vue";
-import WagtailLearn from "../components/WagtailLearn.vue";
+import WagtailLearn from "../components/WagtailAPI/WagtailLearn.vue";
 
 onMounted(() => {
   window.scrollTo(0, 0);

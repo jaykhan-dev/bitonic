@@ -6,7 +6,7 @@
   <!-- BITCOIN BLOCKCHAIN API -->
   <div v-for="info in bitcoin" :key="info.id">
     <!-- INTRO INFO -->
-    <div class="grid lg:grid-cols-2 gap-4 p-2">
+    <div class="grid lg:grid-cols-3 gap-4 p-2">
       <!-- COL -->
       <div
         class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
