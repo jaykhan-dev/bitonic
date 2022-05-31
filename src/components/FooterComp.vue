@@ -4,7 +4,7 @@
     id="footer-section"
   >
     <!-- FILTER -->
-    <div class="bg-gradient-to-r from-black to-black/70 py-20 p-2">
+    <div class="bg-gradient-to-b from-black to-black/70 py-20 p-2">
       <div class="flex justify-center">
         <div class="lg:w-1/2 grid place-items-center">
           <lottie-player

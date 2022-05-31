@@ -2,9 +2,7 @@
   <div v-if="loading">
     <LoadingScreen />
   </div>
-  <div
-    class="h-screen dark:bg-gray-900 dark:text-white grid place-items-center"
-  >
+  <div class="h-screen dark:bg-black dark:text-white grid place-items-center">
     {{ item.title }}
     {{ item.date }}
   </div>

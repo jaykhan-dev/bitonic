@@ -1,9 +1,7 @@
 <template>
-  <section
-    class="dark:bg-gray-900 dark:text-white dark:duration-300 lg:h-screen"
-  >
+  <section class="dark:bg-black dark:text-white dark:duration-300 lg:h-screen">
     <div class="flex justify-center" v-motion-slide-left>
-      <div class="lg:w-1/2 mt-20 lg:flex">
+      <div class="container mt-20 lg:flex">
         <input
           type="text"
           name=""

@@ -4,30 +4,42 @@
     id="hero-section"
   >
     <div
-      class="dark:bg-black/70 bg-black/50 w-full h-screen grid place-items-center"
+      class="h-screen grid place-items-center bg-gradient-to-b from-black/70 to-black"
     >
-      <div class="grid place-items-center" v-motion-fade :delay="500">
-        <h1 class="logo lg:text-6xl text-6xl font-bold mt-8">BTonic</h1>
-        <p class="text-2xl lg:w-1/2 my-8">
-          Bitcoin is the future of money. The tonic for financial health.
-        </p>
-        <lottie-player
-          src="https://assets7.lottiefiles.com/packages/lf20_cupurupx.json"
-          background="transparent"
-          speed="1"
-          loop
-          autoplay
-          style="width: 200px; height: 200px"
-          class=""
-        ></lottie-player>
+      <div class="grid lg:grid-cols-2 lg:w-2/3 place-items-center">
+        <!-- COL -->
+        <div class="">
+          <h1 class="lg:text-7xl text-6xl font-bold mt-8 my-4">
+            The <span class="text-green-500">tonic</span> for financial health
+          </h1>
+          <p class="text-4xl my-8">
+            Find jobs that payout in Bitcoin and start stacking
+            <span class="text-green-500">satoshis</span> in a borderless
+            economy.
+          </p>
+          <div class="flex space-x-4">
+            <button
+              class="border-2 hover:px-8 duration-300 hover:bg-green-500 p-2 px-4 rounded-2xl text-2xl font-bold"
+            >
+              Sign in
+            </button>
+            <button>Learn more</button>
+          </div>
+        </div>
+        <!-- COL -->
+        <div>
+          <img src="" alt="" />
+        </div>
       </div>
     </div>
   </section>
 </template>
 
 <style>
+button {
+}
 #hero-section {
-  background-image: url("../assets/hero-bg.png");
+  background-image: url("../assets/chemistry-bg-2-100.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

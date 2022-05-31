@@ -6,7 +6,7 @@
       <router-link to="/">
         <h1
           id="logo"
-          class="logo text-2xl font-bold text-green-600 text-center"
+          class="logo text-2xl font-bold text-green-600 text-center hover:scale-90 duration-300"
         >
           BTonic
         </h1>
