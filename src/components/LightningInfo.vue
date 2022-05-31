@@ -4,10 +4,14 @@
     <div class="lg:w-2/3">
       <!-- WALLETS -->
       <div class="grid lg:grid-cols-2">
-        <div>
+        <div class="lg:w-3/4">
           <h2 class="lg:text-8xl text-6xl font-bold">Lightning Wallets</h2>
-          <p class="my-8 lg:text-4xl text-2xl">
-            The Lightning Network is unfairly cheap, and blazing fast!
+          <h3 class="text-4xl my-4">
+            The Lightning Network is the layer 2 solution for scaling Bitcoin
+          </h3>
+          <p class="my-8 text-2xl">
+            It is great for micropayments and moving large sums with almost
+            instantaneous transactions and minimal fees.
           </p>
         </div>
 

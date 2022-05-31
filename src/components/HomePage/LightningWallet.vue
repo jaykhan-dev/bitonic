@@ -4,7 +4,9 @@
       class="grid place-items-center bg-gradient-to-r from-green-500 to-green-400 py-20"
     >
       <div class="grid place-items-center">
-        <h2 class="text-6xl text-center font-bold my-4">Connect your wallet</h2>
+        <h2 class="text-6xl text-center font-bold my-4">
+          <span>Connect</span> your wallet
+        </h2>
         <p class="lg:w-2/3 text-center text-2xl">
           To apply to jobs and start stacking satoshis, login with your
           lightning wallet.
