@@ -10,7 +10,7 @@
 
 <script>
 import axios from "axios";
-import LoadingScreen from "../components/LoadingScreen.vue";
+import LoadingScreen from "../../components/LoadingScreen.vue";
 const API_ROOT = "https://khanquest.herokuapp.com/api/v2/pages/";
 
 export default {

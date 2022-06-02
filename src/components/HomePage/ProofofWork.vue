@@ -10,18 +10,25 @@
             height="600"
             width="300"
             id="satoshi-wallet"
-            class="border rounded-3xl shadow-xl shadow-cyan-300 bg-black"
+            class="border dark:border-gray-700 rounded-3xl shadow-xl shadow-green-500/50 bg-black"
           />
         </div>
         <!-- COL -->
         <div class="text-left">
-          <h2 class="lg:text-8xl font-bold my-8">
+          <h2 class="lg:text-8xl font-bold my-8 lg:w-2/3">
             Proof of <span class="text-green-500">Work</span>
           </h2>
           <p class="text-2xl lg:w-2/3">
             The protocol behind Bitcoin, Proof of Work is a great way to
             determine value. Put in the work, and receive the reward or payment.
           </p>
+          <a href="" class=""
+            ><button
+              class="border p-2 px-4 rounded-xl hover:bg-green-500 my-4 text-sm uppercase hover:translate-x-4 duration-300 hover:text-black"
+            >
+              Learn More
+            </button>
+          </a>
         </div>
       </div>
     </div>

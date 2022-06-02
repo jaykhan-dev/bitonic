@@ -15,7 +15,7 @@
           </p>
         </div>
 
-        <table class="text-center text-2xl">
+        <table class="text-center text-2xl p-4">
           <tr class="font-bold uppercase text-sm text-green-600">
             <th>Wallet</th>
             <th>Custodial</th>

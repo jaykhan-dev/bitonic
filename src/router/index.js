@@ -47,7 +47,7 @@ const router = createRouter({
     {
       path: "/jobs/:slug",
       name: "JobPage",
-      component: () => import("../components/JobPage.vue"),
+      component: () => import("../components/jobs/JobPage.vue"),
     },
     {
       path: "/search",
@@ -58,6 +58,11 @@ const router = createRouter({
       path: "/wallet",
       name: "wallet",
       component: () => import("../components/LnUrl.vue"),
+    },
+    {
+      path: "/account",
+      name: "account",
+      component: () => import("../components/account/AccountPage.vue"),
     },
   ],
 });

@@ -4,6 +4,12 @@
       <h2 class="lg:text-8xl font-bold my-8">
         <span class="text-green-500">Who</span> is it for?
       </h2>
+      <p class="text-2xl lg:w-1/3 text-center">
+        Bitcoin being a decentralized and distributed system, appeals to
+        <span class="text-green-500">remote</span>
+        workers who wish to be part of a global economy and have the skills to
+        create high quality work.
+      </p>
       <div
         class="lg:w-2/3 grid lg:grid-cols-3 w-full p-2 place-items-center py-20"
       >
