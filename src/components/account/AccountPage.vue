@@ -46,7 +46,7 @@
       <div class="w-full my-20">
         <h2 class="lg:text-6xl text-4xl font-bold my-4">Proof of work</h2>
         <div
-          class="w-full grid lg:grid-cols-6 border p-2 rounded-xl dark:border-gray-700"
+          class="w-full grid lg:grid-cols-8 border p-2 rounded-xl dark:border-gray-700"
         >
           <!-- COL -->
           <div>
@@ -76,6 +76,16 @@
           <!-- COL -->
           <div>
             <h3>Status</h3>
+          </div>
+
+          <!-- COL -->
+          <div>
+            <h3>Job type</h3>
+          </div>
+
+          <!-- COL -->
+          <div>
+            <h3>Date</h3>
           </div>
         </div>
       </div>

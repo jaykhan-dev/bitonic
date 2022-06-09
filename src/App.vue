@@ -8,21 +8,21 @@
           id="logo"
           class="logo text-2xl font-bold text-green-600 text-center hover:scale-90 duration-300"
         >
-          BTonic
+          Soundbit
         </h1>
       </router-link>
-      <div class="space-x-4 text-xl mr-4 flex justify-center">
-        <router-link to="/news">
-          <i class="fa-solid fa-newspaper hover:text-green-500"></i>
+      <div class="space-x-4 uppercase mr-4 flex justify-center items-center">
+        <router-link to="/data" class="hover:text-green-500">
+          <i class="fa-solid fa-chart-line"></i>
+          Data
         </router-link>
-        <router-link to="/data">
-          <i class="fa-solid fa-chart-line hover:text-green-500"></i>
-        </router-link>
-        <router-link to="/learn">
-          <i class="fa-solid fa-building-columns hover:text-green-500"></i>
-        </router-link>
-        <router-link to="/jobs" class="border-r border-gray-700 pr-4">
-          <i class="fa-solid fa-gears hover:text-green-500"></i>
+
+        <router-link
+          to="/jobs"
+          class="hover:text-green-500 border-r border-gray-700 pr-4"
+        >
+          <i class="fa-solid fa-gears"></i>
+          Find jobs
         </router-link>
         <!-- GLOBAL -->
         <button type="button" @click="isDark = !isDark" class="">

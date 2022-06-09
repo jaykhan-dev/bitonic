@@ -18,7 +18,7 @@
           ></lottie-player>
         </div>
       </div>
-      <!-- SUBSCRIBE -->
+      <!-- SUBSCRIBE 
       <div class="flex justify-center">
         <div class="grid place-items-center text-center lg:w-1/2">
           <h3 class="font-bold text-4xl">Get updates!</h3>
@@ -36,6 +36,7 @@
           </div>
         </div>
       </div>
+      -->
       <!-- BITONIC -->
       <div class="flex justify-center my-20">
         <div class="grid lg:grid-cols-2 lg:w-1/2">
@@ -47,27 +48,25 @@
       </div>
       <!-- PAGES -->
       <div class="flex lg:justify-center my-20">
-        <div class="lg:w-1/2 grid lg:grid-cols-3 gap-4">
+        <div class="lg:w-1/2 grid lg:grid-cols-2 gap-4">
           <!-- COL -->
           <div class="">
-            <h3 class="text-sm uppercase text-green-500">© BTonic. 2022.</h3>
+            <h3 class="text-sm uppercase text-green-500">© Soundbit. 2022.</h3>
             <div class="flex flex-col text-xl font-bold">
-              <p class="text-4xl">The tonic for financial health</p>
-              <a href="https://jkhan.live" class="hover:text-green-600"
-                >designed by <span class="font-mono">jay khan</span></a
+              <p class="text-2xl lg:w-2/3">
+                Part of the Sound Suite of blockchain apps.
+              </p>
+
+              <a href="https://soundco.netlify.app" class="">
+                <button
+                  class="text-sm uppercase font-bold hover:bg-green-500 border rounded-xl my-4 p-4 px-4"
+                >
+                  Sound Co.
+                </button></a
               >
             </div>
           </div>
-          <!-- COL -->
-          <div class="lg:text-left">
-            <h3 class="text-sm uppercase text-green-500">Areas of interest</h3>
-            <div class="flex flex-col text-xl font-bold">
-              <router-link to="/news">News</router-link>
-              <router-link to="/news">Data</router-link>
-              <router-link to="/news">Learn</router-link>
-              <router-link to="/news">Jobs</router-link>
-            </div>
-          </div>
+
           <!-- COL -->
           <div class="lg:text-right">
             <h3 class="text-sm uppercase text-green-500">Connect</h3>
@@ -78,6 +77,14 @@
             </div>
           </div>
         </div>
+      </div>
+      <!-- DISCLAIME -->
+      <div class="text-center items-center py-4 space-x-8">
+        <a
+          href="https://jkhan.live"
+          class="hover:text-green-600 text-sm uppercase"
+          >designed by <span class="font-mono text-blue-500">jay khan</span></a
+        >
       </div>
     </div>
   </section>

@@ -1,6 +1,6 @@
 <script setup>
 import HeroSection from "../components/HeroSection.vue";
-import AreasofInterest from "../components/HomePage/AreasofInterest.vue";
+
 import ProofofWork from "../components/HomePage/ProofofWork.vue";
 import LightningWallet from "../components/HomePage/LightningWallet.vue";
 import WhoFor from "../components/HomePage/WhoFor.vue";
@@ -12,7 +12,7 @@ import AppCharacteristics from "../components/HomePage/AppCharacteristics.vue";
     <HeroSection />
     <ProofofWork />
     <AppCharacteristics />
-    <AreasofInterest />
+
     <WhoFor />
     <LightningWallet />
   </main>

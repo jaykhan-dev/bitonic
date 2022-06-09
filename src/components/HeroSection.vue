@@ -6,11 +6,15 @@
     <div
       class="h-screen grid place-items-center bg-gradient-to-b from-black/70 to-black"
     >
-      <div class="grid lg:grid-cols-2 lg:w-2/3 place-items-center">
+      <div
+        class="grid lg:grid-cols-2 lg:w-2/3 place-items-center"
+        v-motion-slide-right
+        :delay="500"
+      >
         <!-- COL -->
         <div class="">
           <h1 class="lg:text-7xl text-6xl font-bold mt-8 my-4">
-            The <span class="text-green-500">tonic</span> for financial health
+            Financial Freedom
           </h1>
           <p class="text-4xl my-8">
             Find jobs that payout in Bitcoin and start stacking
@@ -18,12 +22,13 @@
             economy.
           </p>
           <div class="flex space-x-4">
-            <button
-              class="border-2 hover:px-8 duration-300 hover:bg-green-500 p-2 px-4 rounded-2xl text-2xl font-bold"
-            >
-              Sign in
-            </button>
-            <button>Learn more</button>
+            <router-link to="/wallet">
+              <button
+                class="border-2 hover:px-8 duration-300 hover:bg-green-500 p-2 px-4 rounded-2xl text-2xl font-bold"
+              >
+                Sign in
+              </button>
+            </router-link>
           </div>
         </div>
         <!-- COL -->
