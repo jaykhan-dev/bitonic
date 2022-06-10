@@ -8,12 +8,11 @@
           id="logo"
           class="logo text-2xl font-bold text-green-600 text-center hover:scale-90 duration-300"
         >
-          Soundbit
+          Sound Bit
         </h1>
       </router-link>
       <div class="space-x-4 uppercase mr-4 flex justify-center items-center">
         <router-link to="/data" class="hover:text-green-500">
-          <i class="fa-solid fa-chart-line"></i>
           Data
         </router-link>
 
@@ -21,7 +20,6 @@
           to="/jobs"
           class="hover:text-green-500 border-r border-gray-700 pr-4"
         >
-          <i class="fa-solid fa-gears"></i>
           Find jobs
         </router-link>
         <!-- GLOBAL -->

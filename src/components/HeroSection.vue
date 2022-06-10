@@ -7,7 +7,7 @@
       class="h-screen grid place-items-center bg-gradient-to-b from-black/70 to-black"
     >
       <div
-        class="grid lg:grid-cols-2 lg:w-2/3 place-items-center"
+        class="grid lg:grid-cols-2 lg:w-2/3 place-items-center p-2"
         v-motion-slide-right
         :delay="500"
       >
@@ -18,8 +18,7 @@
           </h1>
           <p class="text-4xl my-8">
             Find jobs that payout in Bitcoin and start stacking
-            <span class="text-green-500">satoshis</span> in a borderless
-            economy.
+            <span class="text-green-500">satoshis</span>
           </p>
           <div class="flex space-x-4">
             <router-link to="/wallet">
@@ -33,7 +32,14 @@
         </div>
         <!-- COL -->
         <div>
-          <img src="" alt="" />
+          <lottie-player
+            src="https://assets2.lottiefiles.com/private_files/lf30_3ijiy6.json"
+            background="transparent"
+            speed="0.5"
+            loop
+            autoplay
+            class=""
+          ></lottie-player>
         </div>
       </div>
     </div>

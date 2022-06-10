@@ -27,55 +27,80 @@
           />
         </div>
       </div>
-      <div>
-        <h3>Tags</h3>
-        <div>
-          <ul></ul>
+    </div>
+    <div class="grid lg:grid-cols-3 mt-20 gap-4">
+      <!-- COL -->
+      <div class="">
+        <h3 class="lg:text-4xl text-2xl font-bold mb-4 text-left">Tags</h3>
+        <div
+          class="text-2xl dark:bg-gray-900 bg-gray-200 rounded-xl p-4 py-8 space-y-8"
+        >
+          <input
+            type="checkbox"
+            id=""
+            name="Design"
+            value=""
+            class="mx-4 w-4 h-4"
+          />
+          <label for="Design">Design</label><br />
+          <input
+            type="checkbox"
+            id=""
+            name="Engineering"
+            value=""
+            class="mx-4 w-4 h-4"
+          />
+          <label for="Engineering">Engineering</label><br />
+          <input
+            type="checkbox"
+            id=""
+            name="Full-stack"
+            value=""
+            class="mx-4 w-4 h-4"
+          />
+          <label for="Full-stack">Full Stack</label>
         </div>
       </div>
-    </div>
-    <div v-for="job in jobs.items" :key="job.id" class="my-2" v-motion-fade>
-      <div
-        class="border rounded-xl p-2 border-gray-700 dark:border-opacity-25 grid lg:grid-cols-5 gap-4 hover:bg-gray-800 hover:text-white w-full duration-300"
-      >
-        <!-- COL -->
-        <div class="flex items-center space-x-2">
-          <img
-            v-if="job.company_logo_small"
-            :src="job.company_logo_small.url"
-            :width="job.company_logo_small.width / 2"
-            :height="job.company_logo_small.height"
-            alt=""
-          />
-          <p>{{ job.title }}</p>
-        </div>
-        <!-- COL -->
-        <div class="items-center space-x-2">
-          <p class="font-bold">{{ job.company }}</p>
-          <p class="text-green-500">({{ job.contact }})</p>
-        </div>
-        <!-- COL -->
-        <div class="flex items-center lg:justify-evenly space-x-2">
-          <p>
-            <i class="fa-solid fa-eye"></i>
-          </p>
-          <p><i class="fa-solid fa-heart"></i></p>
-          <p>{{ job.date }}</p>
-        </div>
-        <!-- COL -->
-        <div class="flex space-x-8 items-center">
-          <p>Location:</p>
-          <p>Salary:</p>
-        </div>
-        <!-- COL -->
-        <div class="lg:flex items-center justify-end">
-          <router-link :to="/jobs/ + job.meta.slug">
-            <button
-              class="p-2 px-4 rounded-xl border hover:bg-green-500 duration-300"
+      <!-- COL -->
+      <div class="lg:col-span-2 mt-12">
+        <div v-for="job in jobs.items" :key="job.id" class="my-2" v-motion-fade>
+          <div
+            class="border rounded-xl p-2 border-gray-700 dark:border-opacity-25 grid hover:bg-gray-800 hover:text-white w-full duration-300 relative"
+          >
+            <div class="flex items-center space-x-4">
+              <img
+                v-if="job.company_logo_small"
+                :src="job.company_logo_small.url"
+                :width="job.company_logo_small.width"
+                :height="job.company_logo_small.height"
+                alt=""
+              />
+              <div>
+                <p class="font-bold">{{ job.company }}</p>
+                <h2 class="text-2xl font-bold">{{ job.title }}</h2>
+
+                <p class="text-green-500">Category</p>
+              </div>
+            </div>
+            <div
+              class="lg:flex justify-between items-center border-t border-gray-700 my-4 py-4"
             >
-              See more
-            </button>
-          </router-link>
+              <p>Location:</p>
+
+              <p>{{ job.date }}</p>
+
+              <i class="fa-solid fa-heart absolute top-2 right-2 text-4xl"></i>
+              <p>Views:</p>
+
+              <router-link :to="/jobs/ + job.meta.slug">
+                <button
+                  class="p-2 px-4 rounded-xl border hover:bg-green-500 duration-300"
+                >
+                  See more
+                </button>
+              </router-link>
+            </div>
+          </div>
         </div>
       </div>
     </div>
