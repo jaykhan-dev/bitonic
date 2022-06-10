@@ -12,9 +12,9 @@
         </h1>
       </router-link>
       <div class="space-x-4 uppercase mr-4 flex justify-center items-center">
-        <router-link to="/data" class="hover:text-green-500">
+        <!-- <router-link to="/data" class="hover:text-green-500">
           Data
-        </router-link>
+        </router-link> -->
 
         <router-link
           to="/jobs"

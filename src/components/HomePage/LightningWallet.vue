@@ -1,13 +1,11 @@
 <template>
   <section class="bg-fixed" id="get-started">
-    <div
-      class="grid place-items-center bg-gradient-to-r from-green-500 to-green-400 py-20"
-    >
+    <div class="grid place-items-center bg-black text-white py-20">
       <div class="grid place-items-center">
-        <h2 class="text-6xl text-center font-bold my-4">
-          <span>Connect</span> your wallet
+        <h2 class="lg:text-8xl text-4xl text-center font-bold my-4">
+          <span class="text-green-500">Connect</span> your wallet
         </h2>
-        <p class="lg:w-2/3 text-center text-2xl">
+        <p class="lg:w-2/3 text-center text-2xl my-4">
           To apply to jobs and start stacking satoshis, login with your
           lightning wallet.
         </p>
@@ -24,7 +22,7 @@
       ></lottie-player>
       <router-link to="/wallet">
         <button
-          class="p-2 px-4 rounded-xl border bg-black text-white text-2xl font-bold uppercase hover:scale-95 duration-300"
+          class="p-2 px-4 rounded-xl border bg-black text-white text-2xl font-bold uppercase hover:bg-green-500 hover:scale-95 duration-300"
         >
           Get Started
         </button>

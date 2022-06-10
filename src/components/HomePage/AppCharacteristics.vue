@@ -22,7 +22,7 @@
         <!-- COL -->
         <div>
           <lottie-player
-            src="https://assets7.lottiefiles.com/packages/lf20_61aRBR.json"
+            src="https://assets6.lottiefiles.com/private_files/lf30_h03e9pog.json"
             background="transparent"
             speed="1"
             loop
