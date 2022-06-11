@@ -2,7 +2,7 @@
   <section class="bg-fixed" id="get-started">
     <div class="grid place-items-center bg-black text-white py-20">
       <div class="grid place-items-center">
-        <h2 class="lg:text-8xl text-4xl text-center font-bold my-4">
+        <h2 class="lg:text-8xl text-6xl text-center font-bold my-4">
           <span class="text-green-500">Connect</span> your wallet
         </h2>
         <p class="lg:w-2/3 text-center text-2xl my-4">

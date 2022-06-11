@@ -6,13 +6,9 @@
     <div
       class="h-screen grid place-items-center bg-gradient-to-b from-black/70 to-black"
     >
-      <div
-        class="grid lg:grid-cols-2 lg:w-2/3 place-items-center p-2"
-        v-motion-slide-right
-        :delay="500"
-      >
+      <div class="grid lg:grid-cols-2 lg:w-2/3 place-items-center p-2">
         <!-- COL -->
-        <div class="">
+        <div class="" v-motion-slide-left :delay="500">
           <h1 class="lg:text-7xl text-6xl font-bold mt-8 my-4">
             Financial Freedom
           </h1>
@@ -31,7 +27,7 @@
           </div>
         </div>
         <!-- COL -->
-        <div>
+        <div v-motion-fade :delay="500">
           <lottie-player
             src="https://assets2.lottiefiles.com/private_files/lf30_3ijiy6.json"
             background="transparent"

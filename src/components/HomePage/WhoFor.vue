@@ -1,7 +1,7 @@
 <template>
   <section class="dark:bg-black dark:text-white flex justify-center">
-    <div class="container grid place-items-center">
-      <h2 class="lg:text-8xl font-bold my-8">
+    <div class="container grid place-items-center py-20">
+      <h2 class="lg:text-8xl text-6xl font-bold my-8">
         <span class="text-green-500">Who</span> is it for?
       </h2>
       <p class="text-2xl lg:w-1/3 text-center">

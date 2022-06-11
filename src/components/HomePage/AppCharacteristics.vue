@@ -1,5 +1,7 @@
 <template>
-  <section class="dark:bg-green-500 dark:text-white flex justify-center py-20">
+  <section
+    class="dark:bg-green-500 dark:text-white flex justify-center py-20 p-2"
+  >
     <div class="container grid place-items-center">
       <div class="grid lg:grid-cols-3 lg:w-3/4 gap-4 py-20 text-black text-2xl">
         <!-- COL -->

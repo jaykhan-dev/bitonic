@@ -78,13 +78,24 @@
           </div>
         </div>
       </div>
-      <!-- DISCLAIME -->
-      <div class="text-center items-center py-4 space-x-8">
+      <!-- LOGOS -->
+      <div class="flex justify-center items-center py-4 space-x-8">
         <a
           href="https://jkhan.live"
           class="hover:text-green-600 text-sm uppercase"
-          >designed by <span class="font-mono text-blue-500">jay khan</span></a
-        >
+          ><img
+            src="../assets/jk-logo-white.svg"
+            alt="Jay Khan logo"
+            width="50"
+            class="hover:scale-110 duration-300"
+        /></a>
+        <a href="https://soundco.netlify.app"
+          ><img
+            src="../assets/sound-logo-white.svg"
+            alt="Sound Co Logo"
+            width="100"
+            class="hover:scale-110 duration-300"
+        /></a>
       </div>
     </div>
   </section>

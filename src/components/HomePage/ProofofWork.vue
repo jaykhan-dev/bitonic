@@ -1,5 +1,5 @@
 <template>
-  <section class="dark:bg-black dark:text-white flex justify-center py-20">
+  <section class="dark:bg-black dark:text-white flex justify-center py-20 p-2">
     <div class="lg:w-2/3 grid place-items-center">
       <div class="text-center grid lg:grid-cols-2 place-items-center">
         <!-- COL -->
@@ -14,8 +14,8 @@
           />
         </div>
         <!-- COL -->
-        <div class="text-left">
-          <h2 class="lg:text-8xl font-bold my-8 lg:w-2/3">
+        <div class="lg:text-left text-center">
+          <h2 class="lg:text-8xl text-6xl font-bold my-8 lg:w-2/3">
             Proof of <span class="text-green-500">Work</span>
           </h2>
           <p class="text-2xl lg:w-2/3">
