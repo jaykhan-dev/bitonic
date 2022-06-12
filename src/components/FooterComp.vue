@@ -8,7 +8,7 @@
       <div class="flex justify-center">
         <div class="lg:w-1/2 grid place-items-center">
           <lottie-player
-            src="https://assets8.lottiefiles.com/packages/lf20_dO8Ir9.json"
+            src="https://assets2.lottiefiles.com/packages/lf20_zy0hqolm.json"
             background="transparent"
             speed="1"
             loop
@@ -48,27 +48,33 @@
       </div>
       <!-- PAGES -->
       <div class="flex lg:justify-center my-20">
-        <div class="lg:w-1/2 grid lg:grid-cols-2 gap-4">
+        <div class="lg:w-1/2 grid lg:grid-cols-3 gap-4 text-center">
           <!-- COL -->
           <div class="">
-            <h3 class="text-sm uppercase text-green-500">© Soundbit. 2022.</h3>
+            <h3 class="text-sm uppercase text-green-500">© Sound Bit. 2022.</h3>
             <div class="flex flex-col text-xl font-bold">
-              <p class="text-2xl lg:w-2/3">
-                Part of the Sound Suite of blockchain apps.
-              </p>
-
-              <a href="https://soundco.netlify.app" class="">
-                <button
-                  class="text-sm uppercase font-bold hover:bg-green-500 border rounded-xl my-4 p-4 px-4"
-                >
-                  Sound Co.
-                </button></a
-              >
+              <p class="">Own your keys.</p>
+              <p>Own your Bitcoin.</p>
+              <p>Own your future.</p>
             </div>
           </div>
-
           <!-- COL -->
-          <div class="lg:text-right">
+          <div class="">
+            <h3 class="text-sm uppercase text-green-500">General</h3>
+            <div class="flex flex-col text-xl font-bold">
+              <router-link to="/jobs">
+                <a href="">Jobs</a>
+              </router-link>
+              <router-link to="/data">
+                <a href="">Data</a>
+              </router-link>
+              <router-link to="/faq">
+                <a href="">FAQ</a>
+              </router-link>
+            </div>
+          </div>
+          <!-- COL -->
+          <div class="">
             <h3 class="text-sm uppercase text-green-500">Connect</h3>
             <div class="flex flex-col text-xl font-bold">
               <a href="">Twitter</a>

@@ -13,10 +13,13 @@
   "dependencies": {
     "@vueuse/motion": "^2.0.0-beta.12",
     "axios": "^0.27.2",
+    "chart.js": "^3.8.0",
     "gsap": "^3.10.4",
     "lnurl": "^0.24.1",
     "pinia": "^2.0.13",
+    "trading-vue-js": "^1.0.2",
     "vue": "^3.2.33",
+    "vue-chartjs": "^4.1.1",
     "vue-prismjs": "^1.2.0",
     "vue-router": "^4.0.14",
     "vue3-marquee": "^3.0.3"

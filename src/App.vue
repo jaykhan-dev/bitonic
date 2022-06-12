@@ -18,7 +18,7 @@
 
         <router-link
           to="/jobs"
-          class="hover:text-green-500 border-r border-gray-700 pr-4"
+          class="hover:text-green-500 border-r border-gray-700 pr-4 font-bold text-green-500"
         >
           Find jobs
         </router-link>
@@ -27,11 +27,11 @@
           <i class="fa-solid fa-sun text-yellow-500 hidden dark:block"></i>
           <i class="fa-solid fa-moon block dark:hidden"></i>
         </button>
-        <router-link to="/search">
+        <!-- <router-link to="/search">
           <button>
             <i class="fa-solid fa-magnifying-glass hover:text-green-500"></i>
           </button>
-        </router-link>
+        </router-link> -->
         <router-link to="/wallet">
           <button class="">
             <i class="fa-solid fa-wallet hover:text-green-500"></i>

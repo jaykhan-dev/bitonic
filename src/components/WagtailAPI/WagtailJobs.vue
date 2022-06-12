@@ -85,12 +85,12 @@
             <div
               class="lg:flex justify-between items-center border-t border-gray-700 my-4 py-4"
             >
-              <p>Location:</p>
+              <p>{{ job.location }}</p>
 
               <p>{{ job.date }}</p>
 
               <i class="fa-solid fa-heart absolute top-2 right-2 text-4xl"></i>
-              <p>Views:</p>
+              <p>{{ job.salary }}</p>
 
               <router-link :to="/jobs/ + job.meta.slug">
                 <button

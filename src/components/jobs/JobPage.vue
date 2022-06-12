@@ -19,7 +19,7 @@
         </h2>
         <p class="text-xl my-4">{{ item.intro }}</p>
         <div class="lg:flex lg:space-x-8">
-          <p>Salary:</p>
+          <p>{{ item.salary }}</p>
           <p>Applicants:</p>
           <p>{{ item.date }}</p>
         </div>

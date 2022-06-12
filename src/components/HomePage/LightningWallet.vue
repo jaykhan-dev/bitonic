@@ -6,7 +6,7 @@
           <span class="text-green-500">Connect</span> your wallet
         </h2>
         <p class="lg:w-2/3 text-center text-2xl my-4">
-          To apply to jobs and start stacking satoshis, login with your
+          To manage your jobs and start stacking satoshis, login with your
           lightning wallet.
         </p>
         <img src="" alt="" />

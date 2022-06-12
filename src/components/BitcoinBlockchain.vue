@@ -12,14 +12,7 @@
         class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
       >
         <h2 class="lg:text-4xl font-bold" v-motion-slide-right>About</h2>
-        <p class="my-4">
-          Perhaps the most revolutionary technology to emerge since the web was
-          first introduced in the early 90's.
-          <br /><br />
-          The Bitcoin Blockchain has seen massive growths but also volatile
-          price jumps. What is clear, however, is that the idea of a digital
-          currency without a central authority and a fixed supply has taken off.
-        </p>
+
         <p>{{ info.rank }}</p>
         <p>{{ info.msupply }}</p>
         <p>{{ info.csupply }}</p>
@@ -50,13 +43,13 @@
       <div
         class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
       >
-        Mining
+        <ChartJS />
       </div>
       <!-- COL -->
       <div
         class="border p-2 dark:border-gray-700 rounded-xl hover:shadow-xl duration-300"
       >
-        Resources
+        <!-- <TradingVue /> -->
       </div>
     </div>
   </div>
@@ -65,6 +58,8 @@
 <script setup>
 import { onMounted, computed } from "vue";
 import { BitcoinStore } from "../stores/BitcoinStore";
+import ChartJS from "../components/data/ChartJS.vue";
+//import TradingVue from "../components/data/TradingVue.vue";
 
 import LoadingScreen from "../components/LoadingScreen.vue";
 
