@@ -9,7 +9,7 @@
       <div class="grid lg:grid-cols-2 lg:w-2/3 place-items-center p-2">
         <!-- COL -->
         <div class="" v-motion-slide-left :delay="500">
-          <h1 class="lg:text-7xl text-6xl font-bold mt-8 my-4">
+          <h1 class="lg:text-7xl text-6xl font-bold mt-20 my-4">
             Financial Freedom
           </h1>
           <p class="text-4xl my-8">

@@ -12,15 +12,15 @@
         </h1>
       </router-link>
       <div class="space-x-4 uppercase mr-4 flex justify-center items-center">
-        <!-- <router-link to="/data" class="hover:text-green-500">
-          Data
-        </router-link> -->
+        <router-link to="/" class="hover:text-green-500 font-bold">
+          Jobs
+        </router-link>
 
         <router-link
-          to="/jobs"
-          class="hover:text-green-500 border-r border-gray-700 pr-4 font-bold text-green-500"
+          to="/about"
+          class="hover:text-green-500 border-r border-gray-700 pr-4 font-bold"
         >
-          Find jobs
+          About
         </router-link>
         <!-- GLOBAL -->
         <button type="button" @click="isDark = !isDark" class="">

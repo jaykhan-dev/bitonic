@@ -28,40 +28,43 @@
         </div>
       </div>
     </div>
-    <div class="grid lg:grid-cols-3 mt-20 gap-4">
-      <!-- COL -->
-      <div class="">
-        <h3 class="lg:text-4xl text-2xl font-bold mb-4 text-left">Tags</h3>
-        <div
-          class="text-2xl dark:bg-gray-900 bg-gray-200 rounded-xl p-4 py-8 space-y-8"
+    <div>
+      <!-- CATEGORIES -->
+      <div class="lg:flex space-x-4 space-y-2 my-20">
+        <button
+          class="button rounded-xl border hover:border-green-500 duration-300 hover:text-green-500 p-2 px-4 font-bold uppercase"
         >
-          <input
-            type="checkbox"
-            id=""
-            name="Design"
-            value=""
-            class="mx-4 w-4 h-4"
-          />
-          <label for="Design">Design</label><br />
-          <input
-            type="checkbox"
-            id=""
-            name="Engineering"
-            value=""
-            class="mx-4 w-4 h-4"
-          />
-          <label for="Engineering">Engineering</label><br />
-          <input
-            type="checkbox"
-            id=""
-            name="Full-stack"
-            value=""
-            class="mx-4 w-4 h-4"
-          />
-          <label for="Full-stack">Full Stack</label>
-        </div>
+          <a href="">Design</a>
+        </button>
+        <button
+          class="button rounded-xl border hover:border-green-500 duration-300 hover:text-green-500 p-2 px-4 font-bold uppercase"
+        >
+          <a href="">Development</a>
+        </button>
+        <button
+          class="button rounded-xl border hover:border-green-500 duration-300 hover:text-green-500 p-2 px-4 font-bold uppercase"
+        >
+          <a href="">UI/UX</a>
+        </button>
+        <button
+          class="button rounded-xl border hover:border-green-500 duration-300 hover:text-green-500 p-2 px-4 font-bold uppercase"
+        >
+          <a href="">Community Manager</a>
+        </button>
+        <button
+          class="button rounded-xl border hover:border-green-500 duration-300 hover:text-green-500 p-2 px-4 font-bold uppercase"
+        >
+          <a href="">Marketing</a>
+        </button>
+        <button
+          class="button rounded-xl border hover:border-green-500 duration-300 hover:text-green-500 p-2 px-4 font-bold uppercase"
+        >
+          <a href="">Project Manager</a>
+        </button>
       </div>
-      <!-- COL -->
+    </div>
+    <!-- JOBS -->
+    <div class="mt-20 gap-4">
       <div class="lg:col-span-2 mt-12">
         <div v-for="job in jobs.items" :key="job.id" class="my-2" v-motion-fade>
           <div

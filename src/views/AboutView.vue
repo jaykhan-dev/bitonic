@@ -1,7 +1,26 @@
+<script setup>
+import HeroSection from "../components/HeroSection.vue";
+
+import ProofofWork from "../components/HomePage/ProofofWork.vue";
+import LightningWallet from "../components/HomePage/LightningWallet.vue";
+import WhoFor from "../components/HomePage/WhoFor.vue";
+import AppCharacteristics from "../components/HomePage/AppCharacteristics.vue";
+</script>
+
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <main>
+    <HeroSection />
+    <ProofofWork />
+    <AppCharacteristics />
+
+    <WhoFor />
+    <LightningWallet />
+  </main>
 </template>
 
-<style></style>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+span {
+  font-family: "DM Serif Display", serif;
+}
+</style>

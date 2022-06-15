@@ -1,32 +1,30 @@
-<script setup>
-import HeroSection from "../components/HeroSection.vue";
-
-import ProofofWork from "../components/HomePage/ProofofWork.vue";
-import LightningWallet from "../components/HomePage/LightningWallet.vue";
-import WhoFor from "../components/HomePage/WhoFor.vue";
-import AppCharacteristics from "../components/HomePage/AppCharacteristics.vue";
-</script>
-
 <template>
-  <main>
-    <HeroSection />
-    <ProofofWork />
-    <AppCharacteristics />
-
-    <WhoFor />
-    <LightningWallet />
-  </main>
+  <section class="dark:bg-black dark:text-white dark:duration-300 p-2">
+    <div class="flex justify-center">
+      <div class="container mt-20">
+        <div
+          class="lg:flex justify-between items-center p-4 bg-gradient-to-r from-blue-600 to-purple-500 rounded-xl shadow-xl my-8 text-white"
+          v-motion-slide-left
+        >
+          <h1 class="lg:text-6xl text-4xl font-bold">Jobs</h1>
+          <p>Curated jobs that payout in Bitcoin</p>
+          <lottie-player
+            src="https://assets6.lottiefiles.com/private_files/lf30_h03e9pog.json"
+            background="transparent"
+            speed="1"
+            loop
+            autoplay
+            style="width: 100px; height: 100px"
+            class=""
+          ></lottie-player>
+        </div>
+        <!-- WAGTAIL JOBS -->
+        <WagtailJobs />
+      </div>
+    </div>
+  </section>
 </template>
 
-<style>
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
-span {
-  font-family: "DM Serif Display", serif;
-}
-#get-started {
-  background-image: url("../assets/bitcoin-wallpaper.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-</style>
+<script setup>
+import WagtailJobs from "../components/WagtailAPI/WagtailJobs.vue";
+</script>

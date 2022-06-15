@@ -1,6 +1,6 @@
 <template>
   <section class="bg-fixed" id="get-started">
-    <div class="grid place-items-center bg-black text-white py-20">
+    <div class="grid place-items-center dark:bg-black dark:text-white py-20">
       <div class="grid place-items-center">
         <h2 class="lg:text-8xl text-6xl text-center font-bold my-4">
           <span class="text-green-500">Connect</span> your wallet

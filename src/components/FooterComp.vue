@@ -95,7 +95,7 @@
             width="50"
             class="hover:scale-110 duration-300"
         /></a>
-        <a href="https://soundco.netlify.app"
+        <a href=""
           ><img
             src="../assets/sound-logo-white.svg"
             alt="Sound Co Logo"
