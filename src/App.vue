@@ -1,7 +1,10 @@
 <template>
   <div :class="isDark ? 'dark' : ''" class="">
+    <div class="bg-blue-500 fixed top-0 w-full z-50">
+      <p class="text-center uppercase font-bold text-white">prototype</p>
+    </div>
     <div
-      class="fixed top-0 w-full z-50 lg:flex lg:justify-between justify-center text-white bg-black border-b border-white border-opacity-10 p-4"
+      class="fixed top-5 w-full z-50 lg:flex lg:justify-between justify-center text-white bg-black border-b border-white border-opacity-10 p-4"
     >
       <router-link to="/">
         <h1
